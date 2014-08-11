@@ -1,9 +1,9 @@
 Introuction to HTML and CSS
 ============================
 
-About the Course
-----------------
+### About the Course
 
+- Who is this course intended for?
 - Minimal intro to HTML and CSS, then exercises using both
 - Where to look for documentation
 
@@ -14,12 +14,10 @@ About the Course
     - HTML vs. plain text
     - Rendering in browsers
 - HTML and CSS: Markup and Styling
+- Tags and Attributes
 - The structure of an HTML document (html, head, body)
-- tags and attributes
-- Box model
 
 HTML EXERCISES!!!!
-
 
 ### What is CSS?
 
@@ -29,6 +27,13 @@ HTML EXERCISES!!!!
 - Classes and ID's
 
 CSS EXERCISES!!!!
+
+
+### The Box Model
+
+- Everything is a rectangle
+- inline vs. block elements
+- `width`, `height`, `border`, `margin`, `padding`
 
 
 ### Text and Fonts
@@ -53,11 +58,13 @@ LAYOUT EXERCISES
 
 - media queries?
 
-
-### CSS for Prints
-
-
 ### Using Front-end Frameworks
+
+- Introduction to Twitter Bootstrap
+
+
+### CSS for Print
+
 
 
 
