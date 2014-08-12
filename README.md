@@ -11,23 +11,21 @@ Let's introduce the class and what we'll be doing.
 
 A short introduction to what HTML is, why we need it, and what it looks like.
 
-[Introduction Slides](http://runemadsen.github.io/introduction-to-html-and-css/html.html)
+[HTML Slides](http://runemadsen.github.io/introduction-to-html-and-css/html.html)
 
 ### What is CSS?
 
-- What is CSS? Why Cascading?
-- The structure of a CSS document
-- Selectors
-- Classes and ID's
+A short introduction to what CSS is, why we need it, and what it looks like.
 
-CSS EXERCISES!!!!
-
+[CSS Slides](http://runemadsen.github.io/introduction-to-html-and-css/html.html)
 
 ### The Box Model
 
 - Everything is a rectangle
 - inline vs. block elements
 - `width`, `height`, `border`, `margin`, `padding`
+
+EXERCISES!!!
 
 
 ### Text and Fonts
