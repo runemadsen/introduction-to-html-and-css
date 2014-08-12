@@ -46,7 +46,9 @@ body {
 }
 
 .reveal h1 {
-  text-shadow: none; }
+  text-shadow: none;
+  margin-bottom: 40px;
+}
 
 .reveal p, .reveal ul, .reveal ol {
   color: white;
