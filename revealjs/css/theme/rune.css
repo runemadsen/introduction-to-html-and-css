@@ -94,6 +94,20 @@ body {
   border-color: #e7ad52;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
+
+/* Code
+------------------------------------------------ */
+
+.reveal pre {
+  box-shadow: none;
+  font-size: .65em;
+}
+
+.reveal pre code {
+  padding: 15px;
+  border-radius: 5px;
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/

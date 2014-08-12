@@ -3,5 +3,12 @@ layout: slides
 ---
 
 <section>
-- media queries?
+  
+  {% capture code %}
+<html>
+  Hello
+</html>
+  {% endcapture %}
+  {% include code.html code=code lang=html %}
+
 </section>
