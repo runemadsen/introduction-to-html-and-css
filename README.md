@@ -1,12 +1,11 @@
 Introuction to HTML and CSS
 ============================
 
-### About the Course
+### Introduction
 
-- Who is this course intended for?
-- Minimal intro to HTML and CSS, then exercises using both
-- Where to look for documentation
+Let's introduce the class and what we'll be doing.
 
+[Introduction Slides](slides/introduction.html)
 
 ### What is HTML?
 
