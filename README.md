@@ -5,18 +5,13 @@ Introuction to HTML and CSS
 
 Let's introduce the class and what we'll be doing.
 
-[Introduction Slides](slides/introduction.html)
+[Introduction Slides](http://runemadsen.github.io/introduction-to-html-and-css/introduction.html)
 
 ### What is HTML?
 
-- Why do we need HTML?
-    - HTML vs. plain text
-    - Rendering in browsers
-- HTML and CSS: Markup and Styling
-- Tags and Attributes
-- The structure of an HTML document (html, head, body)
+A short introduction to what HTML is, why we need it, and what it looks like.
 
-HTML EXERCISES!!!!
+[Introduction Slides](http://runemadsen.github.io/introduction-to-html-and-css/html.html)
 
 ### What is CSS?
 
