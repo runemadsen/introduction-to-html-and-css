@@ -1,0 +1,11 @@
+# Site settings
+title: Introduction to HTML and CSS
+email: rune@runemadsen.com
+baseurl: ""
+url: "http://www.runemadsen.com"
+twitter_username: runemadsen
+github_username:  runemadsen
+
+# Build settings
+markdown: kramdown
+permalink: pretty
