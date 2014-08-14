@@ -3,32 +3,136 @@ layout: slides
 ---
 
 <section>
-  <h2>What is CSS?</h2>
-  <aside class="notes">
-    Cascading - Think of HTML as a tree
-  </aside>
+  
+  <section>
+    <h2>What is CSS?</h2>
+  </section>
+  
+  <section>
+    <h3>Cascading Style Sheets</h3>
+  </section>
+
+  <section>
+    <h3>Think of HTML as a Tree</h3>
+  </section>
+
+  <section>
+    <h3>Style the tree, a branch, or a leaf</h3>
+  </section>
+
 </section>
 
 <section>
-  <h2>Why Do We Need It?</h2>
-  <aside class="notes">
-    Markup vs. Styling
-  </aside>
+
+  <section>
+    <h2>Why Do We Need It?</h2>
+  </section>
+
+  <section>
+    <h3>Separation of markup and styling</h3>
+  </section>
+  
 </section>
 
 <section>
-  <h2>What Does It Look Like?</h2>
-  <aside class="notes">
-    Selectors, properties and values
+
+  <section>
+    <h2>What Does It Look Like?</h2>
+  </section>
+
+  <section>
+    <h3>Selectors, properties and values</h3>
+    {% capture code %}p {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>CSS Selectors</h2>
+  </section>
+
+  <section>
+    <h3>Name of Tag</h3>
+    {% capture code %}p {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>Classes</h3>
+    {% capture code %}.myclass {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>ID's</h3>
+    {% capture code %}#myid {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>Pseudo selectors</h3>
+    {% capture code %}p:first-child {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>Can be used at the same time</h3>
+    {% capture code %}p.myclass {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>Space means "inside"</h3>
+    {% capture code %}p .myclass {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+  <section>
+    <h3>There's no limi</h3>
+    {% capture code %}html body p strong.myclass {
+  color: red;
+}{% endcapture %}
+    {% include code.html code=code lang=css %}
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>CSS Properties</h2>
+  </section>
+
+</section>
+
+<section>
+
+  <section>
+    <h2>CSS Values</h2>
     Color Values: color names, hex and rgb
     Units: px, em, % 
-    type, classes and ID's
-    advanced selectors
-    linking vs. embedding
-    nesting selectors (with spacing)
-  </aside>
+  </section>
+
 </section>
 
 <section>
   <h2>Creating a CSS File</h2>
+  linking vs. embedding
 </section>

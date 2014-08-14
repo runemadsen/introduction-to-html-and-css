@@ -25,7 +25,6 @@ http://runemadsen.com/tarsier.png{% endcapture %}
 <img src="http://runemadsen.com/tarsier.png" />{% endcapture %}
     {% include code.html code=code lang=html %}
   </section>
-
   
 </section>
 
@@ -62,7 +61,7 @@ http://runemadsen.com/tarsier.png{% endcapture %}
   </section>
 
   <section>
-    <h3>A HTML document</h3>
+    <h3>An empty HTML document</h3>
     {% capture code %}<!DOCTYPE html>
 <html>
   <head></head>
@@ -72,11 +71,33 @@ http://runemadsen.com/tarsier.png{% endcapture %}
   </section>
 
   <section>
-    <h3>A note about HTML versions</h3>
+    <h3>The head tag</h3>
+    {% capture code %}<head>
+  <title>This is my page title</title>
+</head>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>The body tag</h3>
+    {% capture code %}<body>Everything visible should go in here.</body>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>A note on HTML versions</h3>
+  </section>
+
+  <section>
+    <h3>A note on browsers</h3>
   </section>
 
   <section>
     <h3>Whitespace</h3>
+  </section>
+
+  <section>
+    <h3>It's just text</h3>
   </section>
 
 </section>
@@ -89,7 +110,19 @@ http://runemadsen.com/tarsier.png{% endcapture %}
   </section>
 
   <section>
-    <h2>
+    <h3>Opening a local file in a browser</h3>
+  </section>
+
+  <section>
+    <h3>Edit, Save, Refresh</h3>
+  </section>
+
+  <section>
+    <h3>Opening a remote file in a browser</h3>
+  </section>
+
+  <section>
+    <h2>Exercise: Go to a web page. Click "View Source"</h2>
   </section>
   
 </section>
