@@ -7,20 +7,89 @@ layout: slides
 </section>
 
 <section>
-  <h2>Why Do We Need It?</h2>
-  <aside class="notes">
-    Plain text vs. Markup
-    Rendering in browsers
-  </aside>
+    
+  <section>
+    <h2>Why Do We Need It?</h2>
+  </section>
+  
+  <section>
+    <h3>Communication between computers</h3>
+    {% capture code %}This is a tarsier
+http://runemadsen.com/tarsier.png{% endcapture %}
+    {% include code.html code=code lang=text %}
+  </section>
+
+  <section>
+    <h3>Marking up data</h3>
+    {% capture code %}<p>This is a tarsier</p>
+<img src="http://runemadsen.com/tarsier.png" />{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  
 </section>
 
 <section>
-  <h2>What Does It Look Like?</h2>
-  <aside class="notes">
-    Tags
-    Inside each other
-    Attributes
-    The structure of an HTML document (html, head, body)
-    Self-closing tags
-  </aside>
+  
+  <section>
+    <h2>What Does It Look Like?</h2>
+  </section>
+
+  <section>
+    <h3>Tags</h3>
+    {% capture code %}<p>Hello</p>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>Tags can contain other tags</h3>
+    {% capture code %}<p>
+<strong>Hello</strong>
+</p>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>Attributes</h3>
+    {% capture code %}<p class="myclass">Hello</p>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>Self-closing tags</h3>
+    {% capture code %}<img />{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>A HTML document</h3>
+    {% capture code %}<!DOCTYPE html>
+<html>
+  <head></head>
+  <body></body>
+</html>{% endcapture %}
+    {% include code.html code=code lang=html %}
+  </section>
+
+  <section>
+    <h3>A note about HTML versions</h3>
+  </section>
+
+  <section>
+    <h3>Whitespace</h3>
+  </section>
+
+</section>
+
+
+<section>
+
+  <section>
+    <h2>Creating a HTML File</h2>
+  </section>
+
+  <section>
+    <h2>
+  </section>
+  
 </section>
