@@ -54,6 +54,14 @@ body {
   color: white;
 }
 
+.reveal i.fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  background-color: #376B61;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
