@@ -2,8 +2,9 @@
 layout: slides
 ---
 
-<section>
-  
+<!-- WHAT IS CSS?
+___________________________________________________________________-->
+
   <section>
     <h2>What is CSS?</h2>
   </section>
@@ -13,31 +14,29 @@ layout: slides
   </section>
 
   <section>
-    <h3>Think of HTML as a Tree</h3>
+    <h3>Think of HTML as a tree</h3>
   </section>
 
   <section>
     <h3>Style the tree, a branch, or a leaf</h3>
   </section>
 
-</section>
-
-<section>
+<!-- WHY DO WE NEED IT?
+___________________________________________________________________-->
 
   <section>
-    <h2>Why Do We Need It?</h2>
+    <h2>Why do we need it?</h2>
   </section>
 
   <section>
-    <h3>Separation of markup and styling</h3>
+    <h3>Separating markup and styling</h3>
   </section>
   
-</section>
-
-<section>
+<!-- WHAT DOES IT LOOK LIKE?
+___________________________________________________________________-->
 
   <section>
-    <h2>What Does It Look Like?</h2>
+    <h2>What does it look like?</h2>
   </section>
 
   <section>
@@ -48,91 +47,189 @@ layout: slides
     {% include code.html code=code lang=css %}
   </section>
 
+  <section>
+    <h3>Creating a CSS File</h3>
+  </section>
+
+  <section>
+    <h3>Linking vs. embedding</h3>
+  </section>
+
+<!-- CSS SELECTORS
+___________________________________________________________________-->
+
+<section>
+  <h2>CSS selectors</h2>
 </section>
 
 <section>
-
-  <section>
-    <h2>CSS Selectors</h2>
-  </section>
-
-  <section>
-    <h3>Name of Tag</h3>
-    {% capture code %}p {
+  <h3>Name of tag</h3>
+  {% capture code %}p {
   color: red;
 }{% endcapture %}
     {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>Classes</h3>
-    {% capture code %}.myclass {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>ID's</h3>
-    {% capture code %}#myid {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>Pseudo selectors</h3>
-    {% capture code %}p:first-child {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>Can be used at the same time</h3>
-    {% capture code %}p.myclass {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>Space means "inside"</h3>
-    {% capture code %}p .myclass {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
-  <section>
-    <h3>There's no limi</h3>
-    {% capture code %}html body p strong.myclass {
-  color: red;
-}{% endcapture %}
-    {% include code.html code=code lang=css %}
-  </section>
-
 </section>
 
 <section>
-
-  <section>
-    <h2>CSS Properties</h2>
-  </section>
-
+  <h3>Classes</h3>
+  {% capture code %}.myclass {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
 </section>
 
 <section>
-
-  <section>
-    <h2>CSS Values</h2>
-    Color Values: color names, hex and rgb
-    Units: px, em, % 
-  </section>
-
+  <h3>ID's</h3>
+  {% capture code %}#myid {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
 </section>
 
 <section>
-  <h2>Creating a CSS File</h2>
-  linking vs. embedding
+  <h3>Pseudo selectors</h3>
+  {% capture code %}p:first-child {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Can be used at the same time</h3>
+  {% capture code %}p.myclass {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Space means "inside"</h3>
+  {% capture code %}p .myclass {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>There's no limit</h3>
+  {% capture code %}html body p strong.myclass {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<!-- CSS PROPERTIES
+___________________________________________________________________-->
+
+<section>
+  <h2>CSS Properties</h2>
+</section>
+
+<section>
+  <h2>No one remembers them all</h2>
+  <h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">developer.mozilla.org</a></h3>
+</section>
+
+<section>
+  <h3>Styles the selection</h3>
+  {% capture code %}p {
+  color: red;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Can change color, size, position, etc</h3>
+  {% capture code %}p {
+  color: red;
+  width: 200px;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<!-- CSS VALUES
+___________________________________________________________________-->
+
+<section>
+  <h2>CSS Values</h2>
+  Color Values: color names, hex and rgb
+  Units: px, em, % 
+</section>
+
+<section>
+  <h3>Units</h3>
+  {% capture code %}p {
+  width: 200px; /* width in pixels */
+  width: 50%; /* width in percentage of parent */
+  width: 4em; /* width in font size scale */
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Colors</h3>
+  {% capture code %}p {
+  background-color: red; /* color in name */
+  background-color: #FF000; /* color in hex */
+  background-color: rgb(255,0,0); /* color in RGB */
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Other</h3>
+  {% capture code %}p {
+  display: inline;
+  border: 1px solid black;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<!-- CASCADING
+___________________________________________________________________-->
+
+<section>
+ <h2><strong>Cascading</strong> Style Sheets</h2>
+</section>
+
+<section>
+  <h3>HTML as a tree</h3>
+  {% capture code %}<html>
+  <body>
+    <h1>This is <strong>heading</strong></h1>
+    <p>This is <strong>some text</strong></p>
+  </body>
+</html>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Later styles overwrite earlier ones</h3>
+  {% capture code %}p {
+  color: red;
+  color: green;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>... another example</h3>
+  {% capture code %}p {
+  color: red;
+}
+p {
+  color: green;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>But the most specific always wins</h3>
+  {% capture code %}p.myclass {
+  color: red;
+}
+p {
+  color: green;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
 </section>

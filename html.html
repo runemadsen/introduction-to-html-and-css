@@ -2,127 +2,126 @@
 layout: slides
 ---
 
+<!-- WHAT IS HTML?
+___________________________________________________________________-->
+
 <section>
   <h2>What is HTML?</h2>
 </section>
 
-<section>
+<!-- WHY DO WE NEED IT?
+___________________________________________________________________-->
     
-  <section>
-    <h2>Why Do We Need It?</h2>
-  </section>
-  
-  <section>
-    <h3>Communication between computers</h3>
-    {% capture code %}This is a tarsier
-http://runemadsen.com/tarsier.png{% endcapture %}
-    {% include code.html code=code lang=text %}
-  </section>
-
-  <section>
-    <h3>Marking up data</h3>
-    {% capture code %}<p>This is a tarsier</p>
-<img src="http://runemadsen.com/tarsier.png" />{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
-  
+<section>
+  <h2>Why Do We Need It?</h2>
 </section>
 
 <section>
+  <h3>Communication between computers</h3>
+  {% capture code %}This is a tarsier
+http://runemadsen.com/tarsier.png{% endcapture %}
+  {% include code.html code=code lang=text %}
+</section>
+
+<section>
+  <h3>Marking up data</h3>
+  {% capture code %}<p>This is a tarsier</p>
+<img src="http://runemadsen.com/tarsier.png" />{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<!-- WHAT DOES IT LOOK LIKE?
+___________________________________________________________________-->
   
-  <section>
-    <h2>What Does It Look Like?</h2>
-  </section>
+<section>
+  <h2>What Does It Look Like?</h2>
+</section>
 
-  <section>
-    <h3>Tags</h3>
-    {% capture code %}<p>Hello</p>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
+<section>
+  <h3>Tags</h3>
+  {% capture code %}<p>Hello</p>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
-  <section>
-    <h3>Tags can contain other tags</h3>
-    {% capture code %}<p>
+<section>
+  <h3>Tags can contain other tags</h3>
+  {% capture code %}<p>
 <strong>Hello</strong>
 </p>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
+  {% include code.html code=code lang=html %}
+</section>
 
-  <section>
-    <h3>Attributes</h3>
-    {% capture code %}<p class="myclass">Hello</p>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
+<section>
+  <h3>Attributes</h3>
+  {% capture code %}<p class="myclass">Hello</p>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
-  <section>
-    <h3>Self-closing tags</h3>
-    {% capture code %}<img />{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
+<section>
+  <h3>Self-closing tags</h3>
+  {% capture code %}<img />{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
-  <section>
-    <h3>An empty HTML document</h3>
-    {% capture code %}<!DOCTYPE html>
+<section>
+  <h3>An empty HTML document</h3>
+  {% capture code %}<!DOCTYPE html>
 <html>
   <head></head>
   <body></body>
 </html>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
-
-  <section>
-    <h3>The head tag</h3>
-    {% capture code %}<head>
-  <title>This is my page title</title>
-</head>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
-
-  <section>
-    <h3>The body tag</h3>
-    {% capture code %}<body>Everything visible should go in here.</body>{% endcapture %}
-    {% include code.html code=code lang=html %}
-  </section>
-
-  <section>
-    <h3>A note on HTML versions</h3>
-  </section>
-
-  <section>
-    <h3>A note on browsers</h3>
-  </section>
-
-  <section>
-    <h3>Whitespace</h3>
-  </section>
-
-  <section>
-    <h3>It's just text</h3>
-  </section>
-
+  {% include code.html code=code lang=html %}
 </section>
 
+<section>
+  <h3>The head tag</h3>
+  {% capture code %}<head>
+<title>This is my page title</title>
+</head>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
 <section>
+  <h3>The body tag</h3>
+  {% capture code %}<body>Everything visible should go in here.</body>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
-  <section>
-    <h2>Creating a HTML File</h2>
-  </section>
+<section>
+  <h3>A note on HTML versions</h3>
+</section>
 
-  <section>
-    <h3>Opening a local file in a browser</h3>
-  </section>
+<section>
+  <h3>A note on browsers</h3>
+</section>
 
-  <section>
-    <h3>Edit, Save, Refresh</h3>
-  </section>
+<section>
+  <h3>Whitespace</h3>
+</section>
 
-  <section>
-    <h3>Opening a remote file in a browser</h3>
-  </section>
+<section>
+  <h3>It's just text</h3>
+</section>
 
-  <section>
-    <h2>Exercise: Go to a web page. Click "View Source"</h2>
-  </section>
-  
+<!-- CREATING A HTML FILE
+___________________________________________________________________-->
+
+<section>
+  <h2>Creating a HTML File</h2>
+</section>
+
+<section>
+  <h3>Opening a local file in a browser</h3>
+</section>
+
+<section>
+  <h3>Edit, Save, Refresh</h3>
+</section>
+
+<section>
+  <h3>Opening a remote file in a browser</h3>
+</section>
+
+<section>
+  <h3>Exercise: Go to a web page. Click "View Source"</h3>
 </section>
