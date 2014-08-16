@@ -3,17 +3,151 @@ layout: slides
 ---
 
 <section>
-- CSS selectors
-    - `font-size`
-    - `font-family`. "Safe" system fonts
-    - `font-face` and Google Web Fonts
-    - `font-style`
-    - `font-weight`
-    - `line-height`
-    - `letter-spacing`
-- Tags (`h1-h6`, `p`, `strong`, `italic`)
-- Links
+  <h2>Text</h2>
+</section>
+
+
+<!-- Headings
+___________________________________________________________________-->
+
+<section>
+  <h2>Headings</h2>
+  {% capture code %}<h1>Heading 1</h1>
+<h1>Heading 2</h1>
+<h1>Heading 3</h1>
+<h1>Heading 4</h1>
+<h1>Heading 5</h1>
+<h1>Heading 6</h1>
+{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Headings have default weight and margin/padding</h3>
+</section>
+
+<section>
+  <h3>color <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>font-family <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>font-size <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>font-weight <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>letter-spacing <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>text-align <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>margin and padding <i class="fa fa-code"></i></h3>
+</section>
+
+
+<!-- Paragraphs
+___________________________________________________________________-->
+
+<section>
+  <h2>Paragraphs</h3>
+  {% capture code %}<p>This is a bunch of text. Some of it is <strong>bold</bold> and some of it is <em>italic</em></p>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>You can use all the styles from the heading section above</h3>
+</section>
+
+<section>
+  <h3>line-height <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>font-style <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>margin and padding <i class="fa fa-code"></i></h3>
+</section>
+
+
+<!-- Links
+___________________________________________________________________-->
+
+
+<section>
+  <h2>Links</h3>
+  {% capture code %}<a href="URLHERE">Do you know Google?</a>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Linking to external URL <i class="fa fa-code"></i></h3>
+  {% capture code %}<a href="https://google.com">Do you know Google?</a>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Linking to place in same document <i class="fa fa-code"></i></h3>
+  {% capture code %}<a href="#myanchor">Do you know Google?</a>
+<p id="myanchor">This is where I want the link to go</p>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>target <i class="fa fa-code"></i></h3>
+  {% capture code %}<a href="https://google.com" target="_blank">Do you know Google?</a>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>text-decoration <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>:hover <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>:visited <i class="fa fa-code"></i></h3>
+</section>
+
+
+<!-- font-face and Google Fonts
+___________________________________________________________________-->
+
+- `font-face` and Google Web Fonts
+
+
+<!-- Lists
+___________________________________________________________________-->
+
+
+
+<!-- Lists as menus
+___________________________________________________________________-->
+
+
 - Lists, nesting lists, and lists as menus
     + Horizontal menus
     + pop-up menus
+
+
+
+
+<section>
+
+    
+
+
 </section>
