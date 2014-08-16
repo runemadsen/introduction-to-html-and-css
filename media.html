@@ -3,7 +3,93 @@ layout: slides
 ---
 
 <section>
-- images (different image types. Use O'Reilly logo. SVG)
-- video
-- audio
+  <h2>Media</h2>
+</section>
+
+
+<!-- Images
+___________________________________________________________________-->
+
+<section>
+  <h2>Images</h2>
+</section>
+
+<section>
+  <h3>Image Types</h3>
+  <h4>JPG, PNG, GIF, SVG</h4>
+</section>
+
+<section>
+  <h3>Embedding</h3>
+  {% capture code %}<img src="myimage.jpg" />{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Resizing images <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>Block vs. inline <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>Flowing text around images <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>border <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>border-radius <i class="fa fa-code"></i></h3>
+</section>
+
+
+<!-- Video
+___________________________________________________________________-->
+
+
+<section>
+  <h2>Video</h2>
+</section>
+
+<section>
+  <h3>HTML5 video tag</h3>
+  {% capture code %}<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Embedding YouTube videos <i class="fa fa-code"></i></h3>
+</section>
+
+<section>
+  <h3>Embedding Vimeo videos <i class="fa fa-code"></i></h3>
+</section>
+
+
+<!-- Audio
+___________________________________________________________________-->
+
+<section>
+  <h2>Audio</h2>
+</section>
+
+<section>
+  <h3>HTML5 audio tag</h3>
+  {% capture code %}<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>Embedding Soundscloud audio <i class="fa fa-code"></i></h3>
 </section>

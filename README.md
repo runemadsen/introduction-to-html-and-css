@@ -37,18 +37,18 @@ Let's look at the wide range of tags used for displaying text, as well as how to
 [Text Slides](http://runemadsen.github.io/introduction-to-html-and-css/text.html)
 
 
-### Layouts
-
-Let's use HTML and CSS to design website layouts.
-
-[Layouts Slides](http://runemadsen.github.io/introduction-to-html-and-css/layouts.html)
-
-
 ### Media
 
 HTML allows for embedding of several types of interactive media elements. We'll take a look at different image formats, audio, and video.
 
 [Media Slides](http://runemadsen.github.io/introduction-to-html-and-css/media.html)
+
+
+### Layouts
+
+Let's use HTML and CSS to design website layouts.
+
+[Layouts Slides](http://runemadsen.github.io/introduction-to-html-and-css/layouts.html)
 
 
 ### Data
