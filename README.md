@@ -32,9 +32,15 @@ We'll introduce the HTML box model, and go through how content flows in a HTML p
 
 ### Text
 
-Let's look at the wide range of tags used for displaying text, as well as how to construct links and menus.
+Let's look at the wide range of tags used for displaying text, and try to design them real nice.
 
 [Text Slides](http://runemadsen.github.io/introduction-to-html-and-css/text.html)
+
+### Links and Menus
+
+We'll learn about links and how to use lists to create menus.
+
+[Links and Menus Slides](http://runemadsen.github.io/introduction-to-html-and-css/text.html)
 
 
 ### Media
