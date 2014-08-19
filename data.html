@@ -3,12 +3,60 @@ layout: slides
 ---
 
 <section>
-  - tables
-  - Forms
-  All sorts of form elements
+  <h2>Data</h2>
+</section>
+
+<!-- Forms
+___________________________________________________________________-->
+
+<section>
+  <h2>Forms</h2>
+</section>
+
+<section>
+  <h3>Only form design</h2>
+</section>
+
+<section>
+  <h3>The form tag</h3>
+  {% capture code %}<form></form>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>input</h3>
+  {% capture code %}<input type="text" placeholder="username" />
+  <input type="password" />{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>textarea</h3>
+  {% capture code %}<textarea>Hello</textarea>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>select</h3>
+  {% capture code %}<select>
+  <option value="FF000">Red</option>
+  <option value="00FF00">Green</option>
+  <option value="0000FF">Blue</option>
+</select>{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>radio</h3>
+  {% capture code %}<input type="radio" name="favorite" value="css"> CSS
+<input type="radio" name="favorite" value="html"> HTML{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
 
 
-  - Use with Google Forms
+<!-- Tables
+___________________________________________________________________-->
 
-
+<section>
+  <h2>Tables</h2>
 </section>

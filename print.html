@@ -3,5 +3,31 @@ layout: slides
 ---
 
 <section>
-  Print!
+  <h2>CSS for print</h2>
+</section>
+
+<!-- Media
+___________________________________________________________________-->
+
+<section>
+  <h3>@media</h3>
+  {% capture code %}@media print { }{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+
+<!-- Page
+___________________________________________________________________-->
+
+<section>
+  <h2>@page</h2>
+  {% capture code %}@page {
+  margin: 0.5cm;
+}{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+
+<section>
+  <h3>Printing the <a href="examples/print/print.html">two-column layout</a></h3>
 </section>

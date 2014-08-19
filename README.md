@@ -64,6 +64,13 @@ We'll look at media queries and create designs that are responsive to any screen
 [Responsive Layouts Slides](http://runemadsen.github.io/introduction-to-html-and-css/responsive-layouts.html)
 
 
+### CSS for Print
+
+HTML and CSS is not only a good match for websites. With paged media CSS, you can do print-designs too!
+
+[Print Slides](http://runemadsen.github.io/introduction-to-html-and-css/print.html)
+
+
 ### Data
 
 Let's look at some more HTML tags that are used to capture or display data on a HTML page.
@@ -76,13 +83,6 @@ Let's look at some more HTML tags that are used to capture or display data on a 
 Several popular front-end frameworks exists to make it easier to develop designs in HTML. Let's take a look at a few of them.
 
 [Frameworks Slides](http://runemadsen.github.io/introduction-to-html-and-css/frameworks.html)
-
-
-### CSS for Print
-
-HTML and CSS is not only a good match for websites. With paged media CSS, you can do print-designs too!
-
-[Print Slides](http://runemadsen.github.io/introduction-to-html-and-css/print.html)
 
 
 ### Quick introduction to Javascript

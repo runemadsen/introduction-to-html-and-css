@@ -1,0 +1,34 @@
+@media screen {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .container aside {
+    float: left;
+    width: 300px;
+    background-color: green;
+  }
+  
+  .container main {
+    float: right;
+    width: 600px;
+    background-color: red;
+  }
+  
+  .container footer {
+    clear: both;
+    background-color: blue;
+  }
+
+}
+
+@media print {
+ /* style the print output here */
+}
