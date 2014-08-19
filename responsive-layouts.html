@@ -3,12 +3,40 @@ layout: slides
 ---
 
 <section>
-  
-  {% capture code %}
-<html>
-  Hello
-</html>
-  {% endcapture %}
-  {% include code.html code=code lang=html %}
+  <h2>Responsive Layouts</h2>
+</section>
 
+<!-- Media Queries
+___________________________________________________________________-->
+
+<section>
+  <h2>Media queries</h2>
+</section>
+
+<section>
+  <h3>Setup</h3>
+  {% capture code %}<meta name="viewport" content="width=device-width, initial-scale=1.0">{% endcapture %}
+  {% include code.html code=code lang=html %}
+</section>
+
+<section>
+  <h3>min-width</h3>
+  {% capture code %}@media screen and (min-width: 600px)  { }{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>max-width</h3>
+  {% capture code %}@media screen and (max-width: 600px)  { }{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Both</h3>
+  {% capture code %}@media screen and (min-width: 300px) and (max-width: 600px)  { }{% endcapture %}
+  {% include code.html code=code lang=css %}
+</section>
+
+<section>
+  <h3>Two-column reponsive layout</h3>
 </section>
