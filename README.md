@@ -36,11 +36,11 @@ Let's look at the wide range of tags used for displaying text, and try to design
 
 [Text Slides](http://runemadsen.github.io/introduction-to-html-and-css/text.html)
 
-### Links and Menus
+### More elements
 
-We'll learn about links and how to use lists to create menus.
+We'll learn about links, webfonts, and how to use lists to create menus.
 
-[Links and Menus Slides](http://runemadsen.github.io/introduction-to-html-and-css/text.html)
+[More Elements](http://runemadsen.github.io/introduction-to-html-and-css/more-elements.html)
 
 
 ### Media
@@ -57,18 +57,18 @@ Let's use HTML and CSS to design website layouts.
 [Layouts Slides](http://runemadsen.github.io/introduction-to-html-and-css/layouts.html)
 
 
-### Data
-
-Let's look at some more HTML tags that are used to capture or display data on a HTML page.
-
-[Data Slides](http://runemadsen.github.io/introduction-to-html-and-css/data.html)
-
-
 ### Responsive Layouts
 
 We'll look at media queries and create designs that are responsive to any screen size.
 
 [Responsive Layouts Slides](http://runemadsen.github.io/introduction-to-html-and-css/responsive-layouts.html)
+
+
+### Data
+
+Let's look at some more HTML tags that are used to capture or display data on a HTML page.
+
+[Data Slides](http://runemadsen.github.io/introduction-to-html-and-css/data.html)
 
 
 ### Using Front-end Frameworks
