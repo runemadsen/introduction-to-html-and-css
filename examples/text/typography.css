@@ -1,0 +1,55 @@
+body {
+  padding-top: 30px;
+  padding-left: 70px;
+  color: #333333;
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+  color: #1A87C5;
+  font-size: 36px;
+  letter-spacing: -1px;
+}
+
+p {
+  width: 400px;
+  line-height: 1.4em;
+}
+
+blockquote {
+  background-color: #ECECEC;
+  padding: 20px;
+  margin-left: 0px;
+  border-radius: 10px;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 19px;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding-left: 40px;
+}
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  background-color: #ececec;
+  border-radius: 5px;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid gray;
+}
+
+ul.menu li:hover {
+  background-color: red;
+}
+
+ul.menu li a {
+  text-decoration: none;
+}
